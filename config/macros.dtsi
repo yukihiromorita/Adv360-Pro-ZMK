@@ -1,8 +1,14 @@
+macro_ctrl_win_left: macro_ctrl_win_left{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_win_left";
+#binding-cells = <0>;
+bindings = <&kp LG(LCTRL)>, <&kp LEFT_ARROW>;
+};
 macro_macro_ctrl_win: macro_macro_ctrl_win{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_ctrl_win";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LGUI>;
+bindings = <&kp LG(LCTRL)>, <&kp RIGHT_ARROW>;
 };
 macro_macro_alt_tab: macro_macro_alt_tab{
 compatible = "zmk,behavior-macro";
