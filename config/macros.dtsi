@@ -2,7 +2,7 @@ macro_ctrl_win_left: macro_ctrl_win_left{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_win_left";
 #binding-cells = <0>;
-bindings = <&kp LG(LCTRL)>, <&kp LEFT_ARROW>;
+bindings = <&kp LG(LC(LEFT_ARROW))>, <&kp LEFT_ARROW>;
 };
 macro_macro_ctrl_win: macro_macro_ctrl_win{
 compatible = "zmk,behavior-macro";
